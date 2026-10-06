@@ -85,7 +85,7 @@ EW-project/
 │   ├── VLC_PROTOCOL.md                        # Optical PHY and data-link specifications
 │   └── WIRING_GUIDE.md                        # Schematics, resistor calculations & pinouts
 ├── presentation/                              # Academic project presentation
-│   └── slides.md                              # 8-slide presentation deck & flowchart
+│   └── Gesture_Controlled_Music_Player_VLC.pptx # 8-slide presentation deck (16:9 Widescreen)
 ├── firmware/                                  # Complete microcontroller firmware suite
 │   ├── platformio.ini                         # PlatformIO multi-environment configuration
 │   ├── transmitter_glove/                     # Primary Gesture Glove Controller
@@ -147,8 +147,15 @@ python3 scripts/vlc_test_transmitter.py --port /dev/ttyUSB0 --interactive
 
 ---
 
+## 👥 Project Team: Chammaks
+* **Shreyaas Sarkar**: Sensor glove fabrication, kinematics calibration, wearable assembly
+* **Jonathan Robin**: VLC optical transmitter driver, photodiode amplifier, audio DSP
+* **Aditya Gokhale**: FreeRTOS firmware, I²S bus integration, hardware testing & presentation deck
+
+---
+
 ## 📽️ Project Presentation
-The complete 8-slide presentation outline, slide content, speaker notes, and ASCII workflow chart are available in [presentation/slides.md](file:///home/shreyaas/Desktop/EW-project/presentation/slides.md).
+The complete 8-slide PowerPoint presentation is available at [presentation/Gesture_Controlled_Music_Player_VLC.pptx](file:///home/shreyaas/Desktop/EW-project/presentation/Gesture_Controlled_Music_Player_VLC.pptx) (16:9 Widescreen format, themed dark modern slide deck).
 
 ---
 
